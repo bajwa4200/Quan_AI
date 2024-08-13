@@ -25,9 +25,12 @@ Install the required Python packages:
 
 You can create a virtual environment and install the dependencies using pip:
 
-"python -m venv env
-source env/bin/activate  # On Windows, use `env\Scripts\activate`
-pip install -r requirements.txt"
+python -m venv env
+source env/bin/activate  
+
+# On Windows, use `env\Scripts\activate`
+
+pip install -r requirements.txt
 
 Make sure to have the following packages in your requirements.txt:
 
