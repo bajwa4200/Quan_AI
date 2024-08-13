@@ -22,3 +22,47 @@ This project integrates a GPT-3.5-based chatbot with quantum computing capabilit
    ```bash
    git clone https://github.com/yourusername/quantum-chatbot.git
    cd quantum-chatbot
+
+2. **Set up a virtual environment (recommended):**
+
+   ```bash
+   python -m venv env
+   source env/bin/activate  # On Windows, use `env\Scripts\activate`
+   
+3. **Install the required Python packages:**
+
+   Create a `requirements.txt` file with the following content:
+
+   ```plaintext
+   gradio
+   qiskit
+   qiskit_ibm_runtime
+   g4f
+
+4. **Configuration**
+
+   **Update IBM Quantum API Token:**
+
+   Replace the placeholder token in `app.py` with your actual IBM Quantum API token:
+
+   ```python
+   token="YOUR_IBMQ_TOKEN_HERE"
+   
+5. **Usage**
+
+   **Run the application:**
+
+   Start the Gradio interface by executing:
+
+   ```bash
+   python app.py
+
+**User Input:**
+
+```plaintext
+What is the current state of quantum computation?
+[GPT-3.5 response to the user query]
+Quantum Result: [Quantum computation result]
+
+
+
